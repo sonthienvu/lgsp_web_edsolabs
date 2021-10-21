@@ -1,0 +1,23 @@
+@import "../mixins/table-mixin";
+.service-page-container {
+    flex-direction: column;
+    .service-table {
+        width: 1128px;
+        margin-top: 40px;
+        & * {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+        }
+      @include tableComon;
+    }
+}
+.dropdown-unit {
+    min-width: 260px;
+    & * {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+    }
+}

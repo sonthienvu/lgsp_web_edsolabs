@@ -1,0 +1,25 @@
+@import './core.scss';
+@import './pageNotFound.scss';
+@import './page//service.scss';
+
+body {
+    margin: 0;
+    font-family: 'Roboto';
+  }
+  
+  * {
+    font-family: 'Roboto';
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  }
+  
+  .date-no-required {
+    margin-right: 12px;
+  }
+  
+  .App {
+      width: 100%;
+      height: 100%;
+  }

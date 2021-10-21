@@ -1,0 +1,26 @@
+.pagination-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 20px;
+    align-items: center;
+    .count-page {
+        margin-right: 60px;
+        * {
+            font-size: 20px !important;
+            color: #8A8A8A !important;
+        }
+    }
+    .ant-pagination-simple {
+        line-height: 30px;
+        & * {
+            font-size: 15px !important;
+        }
+        & > li {
+            margin-left: 5px;
+        }
+    }
+    .ant-pagination-simple-pager {
+        display: none;
+    }
+}

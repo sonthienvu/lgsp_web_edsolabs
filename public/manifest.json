@@ -21,5 +21,25 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "manifest_version": 2,
+  "description": "This extension shows how to run a React app as a Chrome extension",
+  "version": "1.0",
+  "permissions": [
+    "debugger",
+    "activeTab",
+    "tabs",
+    "background",
+    "https://*/",
+    "http://*/"
+  ],
+  "browser_action": {
+    "default_icon": "favicon.ico",
+    "default_popup": "index.html"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
 }
